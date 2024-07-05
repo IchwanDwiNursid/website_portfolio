@@ -384,7 +384,7 @@ const Resume = () => {
 
             <TabsContent
               value="about"
-              className="w-full text-center xl:text-left"
+              className="w-full text-center xl:text-left mb-48"
             >
               <div className="flex flex-col gap-[30px]">
                 <h3 className="text-4xl font-bold">{about.title}</h3>

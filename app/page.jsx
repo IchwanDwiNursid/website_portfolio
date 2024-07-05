@@ -5,6 +5,7 @@ import { FiDownload } from "react-icons/fi";
 import Social from "../components/Social.jsx";
 import Photo from "../components/Photo.jsx";
 import Stats from "../components/Stats.jsx";
+import { usePathname } from "next/navigation.js";
 
 const Home = () => {
   return (
@@ -18,9 +19,11 @@ const Home = () => {
               <span className="text-accent">Ichwan</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-              tempore reprehenderit pariatur Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Veniam porro qui impedit!
+              I am a Software Developer with expertise in Web Programming, both
+              Frontend and Backend. I frequently implement Microservices in my
+              projects. I also have strong proficiency in Linux, Cloud
+              Computing, and CI/CD. As a competent and reliable professional, I
+              am committed to delivering the best results.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button
