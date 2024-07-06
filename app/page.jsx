@@ -5,7 +5,6 @@ import { FiDownload } from "react-icons/fi";
 import Social from "../components/Social.jsx";
 import Photo from "../components/Photo.jsx";
 import Stats from "../components/Stats.jsx";
-import { usePathname } from "next/navigation.js";
 
 const Home = () => {
   return (
@@ -31,7 +30,9 @@ const Home = () => {
                 size="lg"
                 className="uppercase flex items-center gap-2"
               >
-                <span>Download CV</span>
+                <a href="https://drive.google.com/uc?export=download&id=1qsJmNkzd9eL8evygWdUzb8sN6IfLFz-s">
+                  Download CV
+                </a>
                 <FiDownload className="text-xl" />
               </Button>
               <div className="mb-8 xl:mb-0">

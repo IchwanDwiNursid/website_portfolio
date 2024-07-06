@@ -111,32 +111,32 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, eveniet minus enim repellendus molestiae pariatur aut a tempora consequuntur iure",
+    "I received computer education, formal and informal, I used platforms such as Udemy, YouTube, Coursera, and books, as learning resources",
   items: [
     {
       institution: "Udemy (Programmer Zaman Now)",
-      degree:
-        "Full Stack Web Development Course , Certified Jenkins , Certified Docker , Certified Kubernetes",
+      degree: "Full Stack",
       duration: "2017",
     },
     {
-      institution:
-        "Online Course Platform Youtube (FreeCodeCamp,Indonesia Belajar,Kelas Terbuka)",
-      degree:
-        "Front End , Graphql , Linux Environment , Python Pandas , Python Numpy , TensorFlow , Pytorch , etc...",
+      institution: "Youtube(Freecodecamp)",
+      degree: "GraphQL , Machine Learning",
       duration: "2019",
     },
     {
       institution: "Google Cloud Platform",
-      degree:
-        "Certified Google Cloud Networking Architecture,Certified Google Cloud Service,Certified Database Administration ,Certified Vertex AI ,Certified Terraform For GCP,Certified Security In Cloud",
+      degree: "Cloud Management and Optimization",
       duration: "2022",
     },
     {
       institution: "Alibaba Cloud Academy",
-      degree:
-        "Certified Manage and Deploy App in Alibaba Cloud , Certified Manage VM and Networking , CDN",
+      degree: "Certified AlibabaCloud",
       duration: "2021",
+    },
+    {
+      institution: "Coursera",
+      degree: "CI/CD",
+      duration: "2019",
     },
     {
       institution: "Never Stop Learning",
@@ -391,6 +391,7 @@ const Resume = () => {
                 <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
                   {about.description}
                 </p>
+                About
                 <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
                   {about.info.map((item, index) => {
                     return (

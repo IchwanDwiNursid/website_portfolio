@@ -6,55 +6,33 @@ import Link from "next/link.js";
 const services = [
   {
     num: "01",
-    title: "Front-End Web Development",
+    title: "Frontend web developer",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias unde cumque natus illo minima amet voluptatibus nostrum corporis possimus minus",
-    href: "",
+      "Front-end Web creation, using WordPress, Javascript, React, Angular, and Tailwind",
+    href: "https://github.com/IchwanDwiNursid?tab=repositories",
   },
   {
     num: "02",
-    title: "Backend Developer",
+    title: "Backend developer",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias unde cumque natus illo minima amet voluptatibus nostrum corporis possimus minus",
-    href: "",
+      "Creation of Rest API, GraphQL, Database Optimization, Authorization, Authentication, using Nodejs, GO, Python, Java, Mysql, PostgreSql, Firebase etc..",
+    href: "https://github.com/IchwanDwiNursid?tab=repositories",
   },
   {
     num: "03",
     title: "DevOps Administrator",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias unde cumque natus illo minima amet voluptatibus nostrum corporis possimus minus",
-    href: "",
+      "CI/CD creation using Jenkins, Gh , Gitlab, Terraform, Ansible, Kubernetes, Docker etc...",
+    href: "https://github.com/IchwanDwiNursid?tab=repositories",
   },
   {
     num: "04",
-    title: "Cloud Administrator",
+    title: "Database Services",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias unde cumque natus illo minima amet voluptatibus nostrum corporis possimus minus",
-    href: "",
-  },
-  {
-    num: "05",
-    title: "Database Administrator",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias unde cumque natus illo minima amet voluptatibus nostrum corporis possimus minus",
-    href: "",
-  },
-  {
-    num: "05",
-    title: "Machine Learning Enginer",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias unde cumque natus illo minima amet voluptatibus nostrum corporis possimus minus",
-    href: "",
-  },
-  {
-    num: "05",
-    title: "Logo Design",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias unde cumque natus illo minima amet voluptatibus nostrum corporis possimus minus",
-    href: "",
+      "Database Optimization, Database Indexes, Migration, Database Backup, etc...",
+    href: "https://github.com/IchwanDwiNursid?tab=repositories",
   },
 ];
-
 import { motion } from "framer-motion";
 
 const Services = () => {
