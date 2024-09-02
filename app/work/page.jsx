@@ -39,22 +39,21 @@ const projects = [
   },
   {
     num: "02",
-    category: "Backend",
-    title: "project 2",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quo totam distinctio!",
+    category: "Fullstack",
+    title: "Spotify Clone for Education",
+    description: "made using technology, nextjs, react, and supabase",
     stack: [
       {
-        name: "Nodejs",
+        name: "React",
       },
       {
         name: "Typescript",
       },
       {
-        name: "Mysql",
+        name: "Supabase",
       },
     ],
-    image: "/assets/work/thumb1.png",
+    image: "/assets/work/spotify.png",
     live: "",
     github: "",
   },
@@ -178,7 +177,8 @@ const Work = () => {
                         <Image
                           src={project.image}
                           fill
-                          className="object-cover"
+                          className="object-center"
+                          alt="Work Image"
                         ></Image>
                       </div>
                     </div>

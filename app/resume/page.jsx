@@ -30,8 +30,7 @@ import { GrGraphQl } from "react-icons/gr";
 
 const about = {
   title: "About Me",
-  description:
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatum placeat magnam",
+  description: "I am Ichwan Dwi Nursid, a software developer,",
   info: [
     {
       fieldName: "Name",
@@ -72,7 +71,7 @@ const experiance = {
   icon: "/assets/resume/bedge.svg",
   title: "My experience",
   description:
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, eveniet minus enim repellendus molestiae pariatur aut a tempora consequuntur iure",
+    "I have some experience in the field of Software Engineering, as follows :",
   items: [
     {
       company: "Freelance In Internet",
@@ -86,7 +85,7 @@ const experiance = {
     },
     {
       company: "PT.Astra Daihatsu Motor",
-      position: "Staff Member IT",
+      position: "Staff Member",
       duration: "2021 - 2023",
     },
     {
@@ -98,11 +97,6 @@ const experiance = {
       company: "E-Commarce Startup",
       position: "Freelance Web Developer",
       duration: "2023 - Early 2024",
-    },
-    {
-      company: "Export and Import Company",
-      position: "Ai Chat Bot Developer",
-      duration: "2024 - Present",
     },
   ],
 };
@@ -148,8 +142,7 @@ const education = {
 
 const skill = {
   title: "My Skill",
-  description:
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, eveniet minus enim repellendus molestiae pariatur aut a tempora consequuntur iure",
+  description: "I have some skills that you can consider",
   skillList: [
     {
       icon: <FaHtml5 />,
