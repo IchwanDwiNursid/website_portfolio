@@ -78,6 +78,23 @@ const projects = [
     live: "",
     github: "",
   },
+  {
+    num: "04",
+    category: "AI / Iot",
+    title: "project 4",
+    description: "Face Detection",
+    stack: [
+      {
+        name: "Python",
+      },
+      {
+        name: "Numpy",
+      },
+    ],
+    image: "/assets/work/face_detector.png",
+    live: "",
+    github: "",
+  },
 ];
 
 const Work = () => {
